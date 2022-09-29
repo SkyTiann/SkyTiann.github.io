@@ -1,0 +1,1046 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/fluid.png">
+  <link rel="icon" href="/img/fluid.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="Tian">
+  <meta name="keywords" content="">
+  
+    <meta property="og:type" content="website">
+<meta property="og:title" content="你好">
+<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:site_name" content="你好">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:author" content="Tian">
+<meta name="twitter:card" content="summary_large_image">
+  
+  
+  
+  <title>你好</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_hj8rtnfg7um.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"example.com","root":"/","version":"1.9.3","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+  
+
+
+  
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 100vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>Weblog</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                首页
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                归档
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                分类
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                标签
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                关于
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              &nbsp;<i class="iconfont icon-search"></i>&nbsp;
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">&nbsp;<i
+                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('/img/default.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="这是一条 Slogan"></span>
+          
+        </div>
+
+        
+      </div>
+
+      
+        <div class="scroll-down-bar">
+          <i class="iconfont icon-arrowdown"></i>
+        </div>
+      
+    </div>
+  </div>
+</div>
+
+</div>
+
+  </header>
+
+  <main>
+    
+      <div class="container nopadding-x-md">
+        <div id="board"
+          style="margin-top: 0">
+          
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-10 m-auto">
+                
+
+
+  <div class="row mx-auto index-card">
+    
+    
+      <div class="col-12 col-md-4 m-auto index-img">
+        <a href="/2022/09/29/%E7%B1%BB%E5%9E%8B%E7%B3%BB%E7%BB%9F%E5%B1%82%E7%BA%A7/" target="_self">
+          <img src="/images/ts.png" srcset="/img/loading.gif" lazyload alt="类型系统层级">
+        </a>
+      </div>
+    
+    <article class="col-12 col-md-8 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2022/09/29/%E7%B1%BB%E5%9E%8B%E7%B3%BB%E7%BB%9F%E5%B1%82%E7%BA%A7/" target="_self">
+          类型系统层级
+        </a>
+      </h1>
+
+      
+      <a class="index-excerpt " href="/2022/09/29/%E7%B1%BB%E5%9E%8B%E7%B3%BB%E7%BB%9F%E5%B1%82%E7%BA%A7/" target="_self">
+        <div>
+          类型层级 类型层级实际上指的是，TypeScript 中所有类型的兼容关系，从最上面的 any 类型，到最底层的 never 类型。 类型兼容性判断方式 类型兼容性判断格式类似于下面的格式 1type Result = 22 extends number ? true : false 如果 &lt;变量 b 的类型&gt; extends &lt;变量 a 的类型&gt; 成立，则 b 类型是 a
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-09-29 12:11" pubdate>
+              2022-09-29
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/TypeScript%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/" class="category-chain-item">TypeScript基础知识</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/TypeScript/">#TypeScript</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+      <div class="col-12 col-md-4 m-auto index-img">
+        <a href="/2022/09/28/%E7%BB%93%E6%9E%84%E5%8C%96%E7%B1%BB%E5%9E%8B%E7%B3%BB%E7%BB%9F/" target="_self">
+          <img src="/images/ts.png" srcset="/img/loading.gif" lazyload alt="结构化类型系统">
+        </a>
+      </div>
+    
+    <article class="col-12 col-md-8 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2022/09/28/%E7%BB%93%E6%9E%84%E5%8C%96%E7%B1%BB%E5%9E%8B%E7%B3%BB%E7%BB%9F/" target="_self">
+          结构化类型系统
+        </a>
+      </h1>
+
+      
+      <a class="index-excerpt " href="/2022/09/28/%E7%BB%93%E6%9E%84%E5%8C%96%E7%B1%BB%E5%9E%8B%E7%B3%BB%E7%BB%9F/" target="_self">
+        <div>
+          结构化类型系统 TypeScript的类型系统是结构化类型系统，除此之外，还有一种类型系统（标称类型系统）。结构类型的别称叫鸭子类型，其核心理念是，如果你如果看到一只鸟走起来想鸭子，游泳像鸭子，叫的也像鸭子，那么这只鸟就是鸭子。结构类型中两个类型的关系是通过对象中的属性方法来判断的。 1234567891011class Cat &#123;    eat() &#123; &#125;&#125
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-09-28 20:55" pubdate>
+              2022-09-28
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/TypeScript%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/" class="category-chain-item">TypeScript基础知识</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/TypeScript/">#TypeScript</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+      <div class="col-12 col-md-4 m-auto index-img">
+        <a href="/2022/09/28/%E6%B3%9B%E5%9E%8B/" target="_self">
+          <img src="/images/ts.png" srcset="/img/loading.gif" lazyload alt="泛型">
+        </a>
+      </div>
+    
+    <article class="col-12 col-md-8 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2022/09/28/%E6%B3%9B%E5%9E%8B/" target="_self">
+          泛型
+        </a>
+      </h1>
+
+      
+      <a class="index-excerpt " href="/2022/09/28/%E6%B3%9B%E5%9E%8B/" target="_self">
+        <div>
+          类型别名中的泛型 如果类型别名声明了泛型，其实相当于这个类型别名是一个函数，泛型相当于函数的参数。 1type Foo&lt;T&gt; = T | string | number 类型别名中的泛型一般都是用来进行类型封装的。在条件类型参与的情况下，通常泛型会被作为条件类型的判断条件（T extends Condition,或者 Type extends T）以及返回值（即 : 两端的值），这也是
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-09-28 14:23" pubdate>
+              2022-09-28
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/TypeScript%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/" class="category-chain-item">TypeScript基础知识</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/TypeScript/">#TypeScript</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+      <div class="col-12 col-md-4 m-auto index-img">
+        <a href="/2022/09/27/%E7%B1%BB%E5%9E%8B%E5%AE%89%E5%85%A8/" target="_self">
+          <img src="/images/ts.png" srcset="/img/loading.gif" lazyload alt="类型安全">
+        </a>
+      </div>
+    
+    <article class="col-12 col-md-8 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2022/09/27/%E7%B1%BB%E5%9E%8B%E5%AE%89%E5%85%A8/" target="_self">
+          类型安全
+        </a>
+      </h1>
+
+      
+      <a class="index-excerpt " href="/2022/09/27/%E7%B1%BB%E5%9E%8B%E5%AE%89%E5%85%A8/" target="_self">
+        <div>
+          类型安全的类型工具 除了类型的创建以外，类型的安全保障同样属于类型工具的能力之一。两个主要用于类型安全的类型工具： 类型查询操作符与类型守卫 类型查询操作符：typeof TypeScript中存在两种功能不同的 typeof 操作符。一种是返回 “string” / “number” / “undefined” / “object” 这类字符串的typeof（值层面），需要使用值层面的变量接收。
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-09-27 16:51" pubdate>
+              2022-09-27
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/TypeScript%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/" class="category-chain-item">TypeScript基础知识</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/TypeScript/">#TypeScript</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+      <div class="col-12 col-md-4 m-auto index-img">
+        <a href="/2022/09/25/TS%E7%B1%BB%E5%9E%8B%E5%B7%A5%E5%85%B7/" target="_self">
+          <img src="/images/ts.png" srcset="/img/loading.gif" lazyload alt="TS类型工具">
+        </a>
+      </div>
+    
+    <article class="col-12 col-md-8 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2022/09/25/TS%E7%B1%BB%E5%9E%8B%E5%B7%A5%E5%85%B7/" target="_self">
+          TS类型工具
+        </a>
+      </h1>
+
+      
+      <a class="index-excerpt " href="/2022/09/25/TS%E7%B1%BB%E5%9E%8B%E5%B7%A5%E5%85%B7/" target="_self">
+        <div>
+          类型工具 按照使用方式来划分，类型工具分为三类：操作符、关键字与专用语法。如果是按照使用目的来划分，类型工具可以分为类型创建与类型安全保护。 类型别名 通过使用type关键字声明一个类型别名。类型别名的作用主要是为了一组类型或一个特定类型结构的封装，以便在其他地方进行复用。 类型别名还可以作为工具类型。**工具类型同样基于类型别名，只是多了个泛型。工具类型能够接收泛型，实现了更灵活的类型创建功能。
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-09-25 21:06" pubdate>
+              2022-09-25
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/TypeScript%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/" class="category-chain-item">TypeScript基础知识</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/TypeScript/">#TypeScript</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+      <div class="col-12 col-md-4 m-auto index-img">
+        <a href="/2022/09/24/%E7%B1%BB%E5%9E%8B%E6%96%AD%E8%A8%80/" target="_self">
+          <img src="/images/ts.png" srcset="/img/loading.gif" lazyload alt="any、unknown、never 与类型断言">
+        </a>
+      </div>
+    
+    <article class="col-12 col-md-8 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2022/09/24/%E7%B1%BB%E5%9E%8B%E6%96%AD%E8%A8%80/" target="_self">
+          any、unknown、never 与类型断言
+        </a>
+      </h1>
+
+      
+      <a class="index-excerpt " href="/2022/09/24/%E7%B1%BB%E5%9E%8B%E6%96%AD%E8%A8%80/" target="_self">
+        <div>
+          any 类型 TypeScript 中提供了一个内置类型 any，来表示所谓的任意类型。any类型几乎无所不能，它可以在声明后再次接受任意类型的值，同时可以被赋值给任意其它类型的变量。它能兼容所有类型，也能够被所有类型兼容。为了避免 any 的乱用，有以下使用技巧：  如果是类型不兼容报错导致你使用 any，考虑用类型断言代替。 如果是类型太复杂导致你不想全部声明而使用any，考虑将这一处的类型去
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-09-24 11:19" pubdate>
+              2022-09-24
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/TypeScript%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/" class="category-chain-item">TypeScript基础知识</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/TypeScript/">#TypeScript</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+      <div class="col-12 col-md-4 m-auto index-img">
+        <a href="/2022/09/22/%E5%87%BD%E6%95%B0%E4%B8%8Eclass%E4%B8%AD%E7%9A%84%E7%B1%BB%E5%9E%8B/" target="_self">
+          <img src="/images/ts.png" srcset="/img/loading.gif" lazyload alt="函数与class中的类型">
+        </a>
+      </div>
+    
+    <article class="col-12 col-md-8 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2022/09/22/%E5%87%BD%E6%95%B0%E4%B8%8Eclass%E4%B8%AD%E7%9A%84%E7%B1%BB%E5%9E%8B/" target="_self">
+          函数与class中的类型
+        </a>
+      </h1>
+
+      
+      <a class="index-excerpt " href="/2022/09/22/%E5%87%BD%E6%95%B0%E4%B8%8Eclass%E4%B8%AD%E7%9A%84%E7%B1%BB%E5%9E%8B/" target="_self">
+        <div>
+          函数的类型签名 函数的类型就是描述了函数入参类型与函数返回值类型，无需去管具体实现。函数的类型同样使用 : 的语法进行标注。 123456// 方式一： 函数声明的方式进行类型标注function foo(age:number): number&#123;    return age&#125;// 方式二： 函数表达式的方式进行类型标注const foo: (age:number) =&gt;
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-09-22 19:00" pubdate>
+              2022-09-22
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/TypeScript%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/" class="category-chain-item">TypeScript基础知识</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/TypeScript/">#TypeScript</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+      <div class="col-12 col-md-4 m-auto index-img">
+        <a href="/2022/09/22/%E5%AD%97%E9%9D%A2%E9%87%8F%E7%B1%BB%E5%9E%8B%E4%B8%8E%E6%9E%9A%E4%B8%BE%E7%B1%BB%E5%9E%8B/" target="_self">
+          <img src="/images/ts.png" srcset="/img/loading.gif" lazyload alt="字面量类型与枚举类型">
+        </a>
+      </div>
+    
+    <article class="col-12 col-md-8 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2022/09/22/%E5%AD%97%E9%9D%A2%E9%87%8F%E7%B1%BB%E5%9E%8B%E4%B8%8E%E6%9E%9A%E4%B8%BE%E7%B1%BB%E5%9E%8B/" target="_self">
+          字面量类型与枚举类型
+        </a>
+      </h1>
+
+      
+      <a class="index-excerpt " href="/2022/09/22/%E5%AD%97%E9%9D%A2%E9%87%8F%E7%B1%BB%E5%9E%8B%E4%B8%8E%E6%9E%9A%E4%B8%BE%E7%B1%BB%E5%9E%8B/" target="_self">
+        <div>
+          字面量类型 字面量类型主要包括字符串字面量类型、数字字面量类型、布尔字面量类型和对象字面量类型。字面量类型比原始类型要更加精确。因为原始类型的值可以包括任意的同类型的值，而字面量类型要求的是值级别的字面量一致，值不相同则类型不相同，也就是原始类型的细化。 联合类型 联合类型可以理解为，它代表了一组类型的可用集合，只要最终赋值的类型属于联合类型中的成员之一，就可以认为符合这个联合类型。联合类型中的成
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-09-22 11:39" pubdate>
+              2022-09-22
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/TypeScript%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/" class="category-chain-item">TypeScript基础知识</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/TypeScript/">#TypeScript</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+      <div class="col-12 col-md-4 m-auto index-img">
+        <a href="/2022/09/21/%E5%8E%9F%E5%A7%8B%E7%B1%BB%E5%9E%8B%E4%B8%8E%E5%AF%B9%E8%B1%A1%E7%B1%BB%E5%9E%8B/" target="_self">
+          <img src="/images/ts.png" srcset="/img/loading.gif" lazyload alt="原始类型与对象类型">
+        </a>
+      </div>
+    
+    <article class="col-12 col-md-8 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2022/09/21/%E5%8E%9F%E5%A7%8B%E7%B1%BB%E5%9E%8B%E4%B8%8E%E5%AF%B9%E8%B1%A1%E7%B1%BB%E5%9E%8B/" target="_self">
+          原始类型与对象类型
+        </a>
+      </h1>
+
+      
+      <a class="index-excerpt " href="/2022/09/21/%E5%8E%9F%E5%A7%8B%E7%B1%BB%E5%9E%8B%E4%B8%8E%E5%AF%B9%E8%B1%A1%E7%B1%BB%E5%9E%8B/" target="_self">
+        <div>
+          原始类型值 在JavaScript中，原始类型的值有7种，它们分别是 number/string/boolean/undefined/null/Symbol(ES6)/bigint(ES11)。在TypeScript中它们都有对应的类型标注。 null与undefined 它们在作为类型时，表示的是一个具体意义的类型值。如果没有开启 strictNullChecks 检查的情况下的话，这两个类型默
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-09-21 19:04" pubdate>
+              2022-09-21
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/TypeScript%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/" class="category-chain-item">TypeScript基础知识</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/TypeScript/">#TypeScript</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+      <div class="col-12 col-md-4 m-auto index-img">
+        <a href="/2022/09/20/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E4%BA%8C%E5%8F%89%E6%A0%91/" target="_self">
+          <img src="/images/binaryTree.png" srcset="/img/loading.gif" lazyload alt="二叉树">
+        </a>
+      </div>
+    
+    <article class="col-12 col-md-8 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2022/09/20/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E4%BA%8C%E5%8F%89%E6%A0%91/" target="_self">
+          二叉树
+        </a>
+      </h1>
+
+      
+      <a class="index-excerpt " href="/2022/09/20/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E4%BA%8C%E5%8F%89%E6%A0%91/" target="_self">
+        <div>
+          二叉树的基本概念 二叉树是 n （n≥0n \geq 0n≥0）个结点的有限集合 1.或者为空二叉树，即 n = 0 2.或者由一个根结点和两个互不相交的被称为根的左子树和右子树组成。左子树和右子树又分别是一颗二叉树。 二叉树的五种状态  满二叉树 一颗高度为h，且含有 2h−12^h-12h−1 个节点的二叉树。 特点：  只有最后一层有叶子节点 不存在度为 1 的节点 按层序从 1 开始编号，
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-09-20 19:08" pubdate>
+              2022-09-20
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/" class="category-chain-item">数据结构与算法</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">#数据结构</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+
+
+  <nav aria-label="navigation">
+    <span class="pagination" id="pagination">
+      <span class="page-number current">1</span><a class="page-number" href="/page/2/#board">2</a><a class="extend next" rel="next" href="/page/2/#board"><i class="iconfont icon-arrowright"></i></a>
+    </span>
+  </nav>
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+    </div>
+  
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.0/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        jQuery.ajax({
+          type: 'GET',
+          url: 'https://v1.hitokoto.cn/',
+          headers: {},
+          dataType: 'json',
+          success: function(result) {
+            var apiText;
+            if (result) {
+              var keys = 'hitokoto'.split(',');
+              if (result instanceof Array) {
+                result = result[0];
+              }
+              for (const k of keys) {
+                var value = result[k];
+                if (typeof value === 'string') {
+                  apiText = value;
+                  break;
+                } else if (value instanceof Object) {
+                  result = value;
+                }
+              }
+            }
+            apiText ? typing(apiText) : typing(text);
+          },
+          error: function(xhr, status, error) {
+            if (error) {
+              console.error('Failed to request https://v1.hitokoto.cn/:', error);
+            }
+            typing(text);
+          }
+        })
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
+  </noscript>
+</body>
+</html>
